@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.bg {
+    background-image: url('./bg/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 115%;
+    width: 100%;
+    height: 100vh;
+}
+.a-font {
+font-family: 'Roboto', sans-serif;
+
+}
+.fly-o {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+.stt {
+    display:inline-block;
+    position: absolute; 
+    margin-left: 10%;
+    margin-top: -8%;
+
+}
+@media (min-width : 1024px) {
+    
+    .stt {
+        margin-left: 8%;
+        margin-top: -2%;
+    }
+}
+@media (max-width : 1024px ) and (min-width : 576px) {
+    
+    .stt {
+    margin-top: -4%;
+    }
+}
+@media (max-width : 576px) and (min-width : 500px)  {
+    .stt {
+    margin-top: -5%;
+    }
+}
+.col_login {
+    background-color:rgba(255, 255, 255, .8);
+    height: 100vh;
+    box-shadow: 20px 0px 100px #fff;
+}
+.col_login form input[name] {
+    width: 80%;
+}
+.mg {
+    margin-top: 25%;
+    
+}
+.bs {
+    margin-bottom : 0;
+}
+/*page 2*/
+#myTextArea {
+    widows: 100%;
+    height: 300px;
+}
+.h {
+    
+    height: 70vh;
+        background-color: #fff;
+}
+@media (max-width : 576px) {
+    .share_btn_col {
+        width: 100%;
+    }
+    .share_btn {
+            width: 100%;
+    }
+}
+.livespell_textarea {
+    
+    border-radius: 3px;
+    border : none;
+}
+
+#myTextArea2 {
+     widows: 100%;
+     height: 35px;
+     margin-bottom: 20px;
+     font-size: 21px;
+}
+.mg2 {
+    margin-top: 20px;
+}
